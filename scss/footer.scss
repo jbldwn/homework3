@@ -1,0 +1,30 @@
+footer {
+    background-color: #e06273;
+
+    height: 150px;
+    width: 100%;
+    margin-top: 125px;
+    // height: 100%;
+
+    .gutters {
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .socials {
+            i {
+                color: #fff;
+                margin-top: 8px;
+                margin-right: 15px;
+            }
+        }
+
+        p {
+            color: #fff;
+            font-size: 16px;
+            // margin-bottom: 0;
+        }
+    }
+}

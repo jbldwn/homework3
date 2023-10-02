@@ -1,0 +1,106 @@
+.photos {
+
+    .displayCase {
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        flex-wrap: wrap;
+
+        padding: 0 45px;
+
+        .photoCard {
+            width: 225px;
+            height: 275px;
+
+            border-radius: 30px;
+
+            margin: 0 15px 45px;
+
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            .detail {
+                height: 100%;
+                width: 100%;
+                background-color: rgba(139, 69, 19, .60);
+                border-radius: 30px;
+                // padding: 30px 0;
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                span {
+                    color: white;
+                    font-size: 50px;
+                    text-decoration: underline;
+                    text-align: center;
+                    margin-bottom: 15px;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                }
+
+                :nth-child(2) {
+                    font-size: 35px;
+                    font-family: Georgia, 'Times New Roman', Times, serif;
+                }
+            }
+
+
+            &#photo1 {
+                background-image: linear-gradient(45deg,
+                        rgba(255, 218, 185, 0.5),
+                        rgba(255, 218, 185, 0.5)),
+                    url('../images/2B1A0277.jpg');
+            }
+
+            &#photo2 {
+                background-image: linear-gradient(45deg,
+                        rgba(255, 218, 185, 0.5),
+                        rgba(255, 218, 185, 0.5)),
+                    url('../images/2B1A0517.jpg');
+            }
+
+            &#photo3 {
+                background-image: linear-gradient(45deg,
+                        rgba(255, 218, 185, 0.5),
+                        rgba(255, 218, 185, 0.5)),
+                    url('../images/2B1A0529.jpg');
+            }
+
+            &#photo4 {
+                background-image: linear-gradient(45deg,
+                        rgba(255, 218, 185, 0.5),
+                        rgba(255, 218, 185, 0.5)),
+                    url('../images/2B1A0532.jpg');
+            }
+
+            &#photo5 {
+                background-image: linear-gradient(45deg,
+                        rgba(255, 218, 185, 0.5),
+                        rgba(255, 218, 185, 0.5)),
+                    url('../images/2B1A0593.jpg');
+            }
+
+            &#photo6 {
+                background-image: linear-gradient(45deg,
+                        rgba(255, 218, 185, 0.5),
+                        rgba(255, 218, 185, 0.5)),
+                    url('../images/2B1A9128.jpg');
+            }
+
+            &#photo7 {
+                background-image: linear-gradient(45deg,
+                        rgba(255, 218, 185, 0.5),
+                        rgba(255, 218, 185, 0.5)),
+                    url('../images/2B1A9167.jpg');
+            }
+
+        }
+
+    }
+
+}
